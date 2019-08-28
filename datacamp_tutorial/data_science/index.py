@@ -3,15 +3,17 @@ import pandas as pd
 
 # trying to get data from sheet
 
-# cr = csv.reader('ransom.csv')
-df = pd.read_csv('ransom.csv')
-param = df.head()
-# print(df)
+# cr = csv.reader('01.csv')
+df01 = pd.read_csv('01.csv')
+param01 = df01.head()
 
-print(param['letter'])
-print(param.letter)
+less_then_five = param01[param01.frequency < 5]
+print(less_then_five)
 
-# print(df.info())
+letter_param = param01.letter[param01.frequency < 5]
+print(letter_param)
 
+b = param01[param01.letter == 'B']
+print(b)
 
-
+print(param01.letter_index);print(param01.frequency)
