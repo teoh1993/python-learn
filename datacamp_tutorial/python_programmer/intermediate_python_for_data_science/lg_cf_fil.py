@@ -1,5 +1,7 @@
 # Logic, Control Flow and Filtering
 import numpy as np
+import pandas as pd
+
 
 def p(param):
     print(param)
@@ -42,7 +44,7 @@ room = "bed"
 area = 14.0
 
 # if-elif-else construct for room
-if room == "kit" :
+if room == "kit":
     print("looking around in the kitchen.")
 elif room == "bed":
     print("looking around in the bedroom.")
@@ -50,9 +52,21 @@ else:
     print("looking around elsewhere.")
 
 # if-elif-else construct for area
-if area > 15 :
+if area > 15:
     print("big place!")
-elif area > 10 :
+elif area > 10:
     print("medium size, nice!")
 else:
     print("pretty small.")
+
+
+cars = pd.read_csv('cars.csv', index_col=0)
+
+# Extract drives_right column as Series: dr
+dr = cars['drives_right']
+
+# Use dr to subset cars: sel
+sel = cars[dr]
+
+# Print sel
+print(sel)
