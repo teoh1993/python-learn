@@ -15,7 +15,7 @@
     <session id="-508742749">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.183" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.27" value="1" />
@@ -83,10 +83,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datacamp_tutorial/python_programmer/intermediate_python_for_data_science/lg_cf_fil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="279">
+              <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
               <folding>
-                <marker date="1568208212493" expanded="true" signature="70:90" ph="..." />
+                <element signature="e#36#54#0" expanded="true" />
+                <marker date="1568208294129" expanded="true" signature="90:110" ph="..." />
               </folding>
             </state>
           </provider>
@@ -219,7 +220,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32885906" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49798658" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49798658" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50201344" side_tool="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -346,10 +347,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/datacamp_tutorial/python_programmer/intermediate_python_for_data_science/lg_cf_fil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="279">
+          <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
           <folding>
-            <marker date="1568208212493" expanded="true" signature="70:90" ph="..." />
+            <element signature="e#36#54#0" expanded="true" />
+            <marker date="1568208294129" expanded="true" signature="90:110" ph="..." />
           </folding>
         </state>
       </provider>
